@@ -14,3 +14,5 @@ Web-app which aids crypto-investors and traders to keep track of trending coins,
 ![image](https://user-images.githubusercontent.com/99603170/236688156-7cb7c81f-dbf5-4196-a26d-c70ebf3d64ff.png)
 </br> =>  A user can't vote unless logged in.</br>
   => A crypto Founder can't add a coin unless logged in.</br>
+  => An authenticagte user can only vote one coin at a time.</br>
+  => Any user can come a view the details.</br>
