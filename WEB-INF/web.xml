@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+             <servlet-name>ControllerServlet</servlet-name>
+             <servlet-class>MyPack.Controller</servlet-class>
+    </servlet>    
+    <servlet-mapping>
+             <servlet-name>ControllerServlet</servlet-name>
+             <url-pattern>/Controller</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+		<servlet-name>form</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>form</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>for</servlet-name>
+		<servlet-class>addCoin</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>for</servlet-name>
+		<url-pattern>/addCoin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>searchCoin</servlet-name>
+		<servlet-class>searchCoin</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>searchCoin</servlet-name>
+		<url-pattern>/searchCoin</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>log</servlet-name>
+		<servlet-class>LogIn</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>log</servlet-name>
+		<url-pattern>/LogIn</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showAll</servlet-name>
+		<servlet-class>showAll</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>showAll</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>xya</servlet-name>
+		<servlet-class>Welcome</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>xya</servlet-name>
+		<url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+
+	<context-param>  
+    <param-name>driverName</param-name>  
+    <param-value>com.mysql.jdbc.Driver</param-value>  
+  </context-param> 
+
+	<context-param>  
+    <param-name>url</param-name>  
+    <param-value>jdbc:mysql://127.0.0.1/project</param-value>  
+  </context-param> 
+</web-app>

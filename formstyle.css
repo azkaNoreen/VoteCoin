@@ -1,0 +1,22 @@
+
+.for
+{
+    margin: auto;
+    width: 35%;
+    border: 3px solid rgba(255, 179, 0, 0.883);
+    padding: 10px 30px 20px 30px;
+    background-color: rgb(68, 68, 68);
+}
+.sbmt
+{
+    width:390px;
+    height:40px;
+    text-align: center;
+    background-color:rgb(243, 243, 243);
+    border-radius:40px";
+}
+#txt
+{
+    color:rgba(255, 179, 0, 0.883);
+    text-align: center;
+}
